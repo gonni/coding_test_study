@@ -4,7 +4,7 @@ import java.util.regex.*;
 
 public class HTMLParser {
     public static void main(String[] args) {
-        String html = "<a href=\"http://abc.com\">abc</a>";
+        String html = "<a href=\"http://abc.com\" link=\"A\" linked>abc</a>";
         parseHTML(html);
     }
 
